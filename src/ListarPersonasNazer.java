@@ -26,7 +26,7 @@ public class ListarPersonasNazer {
         // System.out.println(individuo.getNombre());
         // }
         
-        // ordenado por nombre(A-Z)
+        // ordenado por nombre(A-Z)-
         listaPersonas.sort(Comparator.comparing(Persona::getNombre));
 
         System.out.println("\nOrdenado por Nombre (A-Z):");
