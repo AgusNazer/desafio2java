@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class App {
+public class ListarPersonasNazer {
     public static void main(String[] args) {
         
         // creo instancias de personas
@@ -12,12 +12,7 @@ public class App {
         Persona persona4 = new Persona("Agus", "Lopes");
         Persona persona5 = new Persona("Maria", "Fernandez");
         
-        // System.out.println("Persona 1: " + persona1.getNombre() + " " + persona1.getApellido() );
-        // System.out.println("Persona 2: " + persona2.getNombre() + " " + persona2.getApellido() );
-        // System.out.println("Persona 3: " + persona3.getNombre() + " " + persona3.getApellido() );
-        // System.out.println("Persona 4: " + persona4.getNombre() + " " + persona4.getApellido() );
-        // System.out.println("Persona 5: " + persona5.getNombre() + " " + persona5.getApellido() );
-        
+    
         // Creo la lista, y agrego las personas a ella
         List<Persona> listaPersonas = new ArrayList<>();
         listaPersonas.add(persona1);
@@ -26,7 +21,7 @@ public class App {
         listaPersonas.add(persona4);
         listaPersonas.add(persona5);
 
-        //mosrtar con un for in la lista.
+        //mosrtar con un for in la lista para ver si funciona.
         // for(Persona individuo : listaPersonas){
         // System.out.println(individuo.getNombre());
         // }
@@ -54,8 +49,7 @@ public class App {
         for (Persona individuo : listaPersonas) {
         System.out.println(individuo.getApellido());
         }
-
-        
+//entregado el 11 feb 25
 
     }
 
